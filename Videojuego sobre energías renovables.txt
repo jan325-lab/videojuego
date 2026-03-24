@@ -1,0 +1,21 @@
+Videojuego sobre energías renovables:
+Soy Janis Carolina Navarro Careaga, estudiante de la carrera de Ing. Fuentes de Energías Renovables. Quiero crear un videojuego para la difusión entretenida de las energías limpias.
+Título del videojuego: Energy Drive
+El jugador va a diseñar, optimizar y competir con vehículos impulsados por energías renovables en distintos entornos extremos. No gana solo el más rápido, sino el mas eficiente energéticamente hablando (estilo parecido a la fórmula 1, NASCAR, Nürburgring).
+Objetivos del jugador: Ganar carreras, administrar la energía disponible, diseñar el vehículo más eficiente y adaptarse a condiciones ambientales y climáticas cambiantes.
+Mecánica del juego:
+1. La batería es limitada, el consumo depende de: velocidad, peso del vehículo y el terreno. Se puede recargar durante la carrera (pueden ser paneles solares, frenado regenerativo, estaciones de recarga, e.t.c).
+2. El jugador puede modificar el vehículo: 
+I. Componentes: Paneles solares, Turbinas pequeñas, baterías, motores eléctricos, uso de biodiésel (dependiendo el modelo de auto).
+II. Variables: Peso, aerodinámica, capacidad energética y eficiencia.
+3. Cada carrera cambia: Radiación solar (día, noche, nubes), Viento (afecta generación y resistencia), temperatura (afecta a las baterías) y tipo de terreno (arena, asfalto, montaña, desierto).
+Tipos de escenarios: 
+* Desierto: Alta energía solar y temperatura.
+* Costa: Energía eólica constante y la humedad afecta el rendimiento
+* Montaña: Baja densidad de aire, subidas demandantes.
+* Ciudad: Mucha sombra (edificios altos), muchas frenadas.
+Modos de juego:
+* Carrera clásica: El primero en llegar gana
+* Modo eficiente: Gana quien usa menos energía, no quien llegue primero
+Que tenga un indicador de batería en tiempo real, gráficas de consumo vs generación y alertas “batería baja” o “alta radiación disponible” e.t.c.
+Programa únicamente en formato .html (No uses Python)
