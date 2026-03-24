@@ -181,185 +181,179 @@
 <!-- MENU -->
 <div id="menu" class="screen active">
   <div class="logo-wrap">
-    <span class="logo-icon">⚡🏎️🌱</span>
-    <div class="logo-sub">Ing. Fuentes de Energías Renovables · Janis C. Navarro Careaga</div>
+    <div class="logo-sub">Ing. Fuentes de Energias Renovables - Janis C. Navarro</div>
     <div class="logo-title">ENERGY DRIVE</div>
   </div>
   <div class="menu-buttons">
-    <button class="btn-menu primary" onclick="showScreen('setup')">🏁 Iniciar Carrera</button>
-    <button class="btn-menu secondary" onclick="showHowTo()">📖 ¿Cómo jugar?</button>
+    <button class="btn-menu primary" onclick="showScreen('setup')">INICIAR CARRERA</button>
+    <button class="btn-menu secondary" onclick="showHowTo()">COMO JUGAR</button>
   </div>
   <div class="menu-tags">
-    <span class="tag solar">☀️ Solar</span>
-    <span class="tag wind">💨 Eólica</span>
-    <span class="tag regen">⚡ Regenerativa</span>
+    <span class="tag solar">SOLAR</span>
+    <span class="tag wind">EOLICA</span>
+    <span class="tag regen">REGENERATIVA</span>
   </div>
 </div>
 
 <!-- INSTRUCTIONS -->
 <div id="instructions" class="screen">
   <div class="instr-header">
-    <h1>⚡ GUÍA DE JUEGO</h1>
-    <div style="color:rgba(224,234,255,.5);font-size:11px;">Aprende a optimizar tu vehículo eléctrico</div>
+    <h1>GUÍA DE JUEGO</h1>
+    <div style="color:rgba(224,234,255,.5);font-size:11px;">Aprende a ganar con eficiencia energética</div>
   </div>
   <div class="instr-content">
     <!-- CONTROLS -->
     <div class="instr-section">
-      <h2>🎮 Controles</h2>
+      <h2>CONTROLES</h2>
       <div class="instr-subsection">
-        <h3>PC / Teclado</h3>
+        <h3>Teclado (PC)</h3>
         <ul class="instr-list">
-          <li><strong>↑ W</strong> - Acelerar (consume batería)</li>
-          <li><strong>↓ S</strong> - Frenar / Regenerar energía</li>
-          <li><strong>← →  A D</strong> - Girar (izquierda / derecha)</li>
-          <li><strong>ESC</strong> - Pausar / Reanudar</li>
+          <li><strong>Arriba / W</strong> - Acelerar</li>
+          <li><strong>Abajo / S</strong> - Frenar y regenerar</li>
+          <li><strong>Izq/Der / A D</strong> - Girar</li>
+          <li><strong>ESC</strong> - Pausar</li>
         </ul>
       </div>
       <div class="instr-subsection">
-        <h3>Mobile / Táctil</h3>
+        <h3>Móvil / Táctil</h3>
         <ul class="instr-list">
-          <li><strong>◄ ►</strong> - Control lateral</li>
-          <li><strong>▲ ▼</strong> - Aceleración y frenado</li>
+          <li><strong>Botones</strong> - Mantén presionado para control</li>
         </ul>
       </div>
       <div class="instr-tip">
-        <div class="instr-tip-txt">💡 <strong>Consejo:</strong> En mobile, mantén los botones presionados para control continuo.</div>
+        <div class="instr-tip-txt">Consejo: Los controles son iguales en ambas plataformas, solo cambia la entrada.</div>
       </div>
     </div>
 
     <!-- ENERGY SYSTEM -->
     <div class="instr-section">
-      <h2>⚡ Sistema de Energía</h2>
+      <h2>SISTEMA ENERGÉTICO</h2>
       <div class="instr-subsection">
-        <h3>Consumo de Batería</h3>
+        <h3>Consumo</h3>
         <ul class="instr-list">
-          <li>Acelerar: consume energía según velocidad</li>
-          <li>Mayor peso = mayor consumo</li>
-          <li>Mala aerodinámica = más resistencia</li>
-          <li>Temperaturas altas: -15% eficiencia</li>
-          <li>Velocidad máxima: 25-45% de energía por segundo</li>
+          <li>Acelerar = máximo consumo</li>
+          <li>Peso alto = más consumo</li>
+          <li>Calor = baja eficiencia</li>
         </ul>
       </div>
       <div class="instr-subsection">
-        <h3>Generación de Energía</h3>
+        <h3>Generación</h3>
         <ul class="instr-list">
-          <li><strong>☀️ Paneles Solares:</strong> 2-60W según radiación</li>
-          <li><strong>💨 Turbina Eólica:</strong> 3-45W según viento</li>
-          <li><strong>⚡ Freno Regenerativo:</strong> Drena 15-80W al frenar</li>
-          <li><strong>🌱 Biocombustible:</strong> +5W constantes</li>
+          <li><strong>Solar:</strong> Genera en brillo alto</li>
+          <li><strong>Eólica:</strong> Genera en viento fuerte</li>
+          <li><strong>Regen:</strong> Recupera al frenar</li>
+          <li><strong>Biocombustible:</strong> Bonus constante</li>
         </ul>
       </div>
       <div class="instr-tip">
-        <div class="instr-tip-txt">📊 La batería es tu recurso limitado: planifica tus aceleraciones.</div>
+        <div class="instr-tip-txt">La batería es limitada. Acelera cuando generes energía para ganar.</div>
       </div>
     </div>
 
     <!-- SCENARIOS -->
     <div class="instr-section">
-      <h2>🌍 Escenarios</h2>
+      <h2>ESCENARIOS</h2>
       <div class="instr-subsection">
-        <h3>🏜️ Desierto</h3>
-        <p>Sol intenso (radiación +70%), viento débil. Ideal para paneles solares. Temperatura: 46°C base.</p>
+        <h3>Desierto [SOLAR]</h3>
+        <p>Sol intenso. Paneles generan mucho. Cuidado con el calor. Temp: 46C.</p>
       </div>
       <div class="instr-subsection">
-        <h3>🌊 Costa</h3>
-        <p>Vientos fuertes (turbina +70%), radiación moderada. Perfecto para aerogeneradores. Temp: 27°C.</p>
+        <h3>Costa [EÓLICA]</h3>
+        <p>Vientos fuertes. Turbina es clave. Temperatura ideal. Temp: 27C.</p>
       </div>
       <div class="instr-subsection">
-        <h3>⛰️ Montaña</h3>
-        <p>Pendientes pronunciadas, freno regenerativo +20%. Temperatura fresca: 17°C. Consumo aumentado.</p>
+        <h3>Montaña [REGEN]</h3>
+        <p>Muchas bajadas. Regeneración al frenar. Frío ayuda. Temp: 17C.</p>
       </div>
       <div class="instr-subsection">
-        <h3>🏙️ Ciudad</h3>
-        <p>Mucho frenado. Regeneración +25%. Baja radiación solar y viento. Temperatura: 31°C.</p>
+        <h3>Ciudad [HÍBRIDA]</h3>
+        <p>Mucho frenado. Regen +25%. Combina todo. Temp: 31C.</p>
       </div>
     </div>
 
     <!-- VEHICLE CONFIG -->
     <div class="instr-section">
-      <h2>🚗 Configuración del Vehículo</h2>
+      <h2>CONFIGURACIÓN</h2>
       <div class="instr-subsection">
-        <h3>Parámetros Fundamentales</h3>
+        <h3>Parámetros (1-10)</h3>
         <ul class="instr-list">
-          <li><strong>Aerodinámica (Aero):</strong> 1-10. Mayor = menos resistencia</li>
-          <li><strong>Peso:</strong> 1-10. Mayor = más consumo pero mejor tracción</li>
-          <li><strong>Capacidad Batería:</strong> 1-10 (base: 12Wh/nivel)</li>
-          <li><strong>Potencia Motor:</strong> 1-10. Mayor = aceleración más rápida</li>
+          <li><strong>Aero:</strong> Menos resistencia</li>
+          <li><strong>Peso:</strong> Más consumo = más lento</li>
+          <li><strong>Batería:</strong> Capacidad total</li>
+          <li><strong>Potencia:</strong> Aceleración disponible</li>
         </ul>
       </div>
       <div class="instr-subsection">
-        <h3>Componentes Opcionales</h3>
+        <h3>Componentes (ON/OFF)</h3>
         <ul class="instr-list">
-          <li><strong>☀️ Paneles:</strong> Generan energía de luz</li>
-          <li><strong>💨 Turbina:</strong> Optimiza energía eólica</li>
-          <li><strong>⚡ Regeneración:</strong> Recupera energía al frenar</li>
-          <li><strong>🔋 Batería Grande:</strong> +60Wh capacidad</li>
-          <li><strong>🌱 Biocombustible:</strong> +5W constantes</li>
+          <li><strong>Paneles:</strong> Energía solar</li>
+          <li><strong>Turbina:</strong> Energía eólica</li>
+          <li><strong>Regen:</strong> Recupera en frenadas</li>
+          <li><strong>Gran Batt:</strong> Más capacidad</li>
+          <li><strong>Bio Fuel:</strong> Bonus energía</li>
         </ul>
       </div>
       <div class="instr-tip">
-        <div class="instr-tip-txt">⚙️ Adapta tu configuración al escenario para máxima eficiencia.</div>
+        <div class="instr-tip-txt">Configura según el escenario. Experimenta para optimizar.</div>
       </div>
     </div>
 
     <!-- STRATEGIES -->
     <div class="instr-section">
-      <h2>🏆 Estrategias Ganadoras</h2>
+      <h2>ESTRATEGIAS</h2>
       <div class="instr-subsection">
-        <h3>Desierto (Solar)</h3>
-        <p>Prioriza paneles solares. Mantén velocidad moderada bajo el sol. Evita sobrecalentamiento.</p>
+        <h3>Desierto</h3>
+        <p>Prioriza paneles. Evita sobrecalentamiento.</p>
       </div>
       <div class="instr-subsection">
-        <h3>Costa (Eólica)</h3>
-        <p>Instala turbina obligatoriamente. Acelera cuando la radiación sea alta (5-60W).</p>
+        <h3>Costa</h3>
+        <p>Instala turbina. Aprovecha vientos.</p>
       </div>
       <div class="instr-subsection">
-        <h3>Montaña (Regeneración)</h3>
-        <p>Freno regenerativo es clave. Acelera en subidas, regenera en bajadas.</p>
+        <h3>Montaña</h3>
+        <p>Regeneración es clave. Recupera en bajadas.</p>
       </div>
       <div class="instr-subsection">
-        <h3>Ciudad (Híbrida)</h3>
-        <p>Combina todas las fuentes. Mucho frenado = usa regeneración al máximo.</p>
+        <h3>Ciudad</h3>
+        <p>Combina todas las fuentes. Regen al máximo.</p>
       </div>
     </div>
 
     <!-- PHYSICS -->
     <div class="instr-section">
-      <h2>🧪 Física Realista</h2>
+      <h2>FÍSICA</h2>
       <div class="instr-subsection">
-        <h3>Eficiencia Térmica</h3>
+        <h3>Temperatura</h3>
         <ul class="instr-list">
-          <li>Temperatura ideal: 15-30°C (+0% penalización)</li>
-          <li>Sobre 38°C: -0.33% eficiencia por °C</li>
-          <li>Los paneles solares generan el calor</li>
-          <li>Escenarios más fríos = mejor rendimiento</li>
+          <li>Ideal: 15-30C (0% penalización)</li>
+          <li>Sobre 38C: baja eficiencia</li>
+          <li>Frío = mejor rendimiento batería</li>
         </ul>
       </div>
       <div class="instr-subsection">
-        <h3>Dinámica del Vehículo</h3>
+        <h3>Dinámicas</h3>
         <ul class="instr-list">
-          <li>Resistencia aerodinámica varía con velocidad²</li>
-          <li>Regeneración limitada (max 80W por frenada)</li>
-          <li>Curvas afectan generación solar</li>
-          <li>Pendientes modifican consumo</li>
+          <li>Resistencia aerodinámica con v²</li>
+          <li>Curvas reducen generación solar</li>
+          <li>Pendientes cambian dinámicas</li>
         </ul>
       </div>
     </div>
 
     <!-- TIPS -->
     <div class="instr-section">
-      <h2>💡 Consejos Pro</h2>
+      <h2>CONSEJOS</h2>
       <ul class="instr-list">
-        <li>⚡ Monitorea el HUD: batería, generación, temperatura</li>
-        <li>📊 Compara consumo vs generación en tiempo real</li>
-        <li>🎯 Acelera cuando generes mucha energía</li>
-        <li>❄️ En ciudades frías, regeneración es 25% mejor</li>
-        <li>☀️ Los paneles pierden eficacia en las curvas</li>
-        <li>🏁 Primera posición no garantiza victoria si se queda sin batería</li>
-        <li>🔄 El modo eficiente valora energía usada, no solo velocidad</li>
+        <li>Monitorea: batería, generación, temperatura</li>
+        <li>Acelera cuando generes mucha energía</li>
+        <li>Temperatura baja = mejor eficiencia</li>
+        <li>Curvas reducen generación solar</li>
+        <li>Primero no = ganar sin batería</li>
+        <li>Equilibra velocidad con energía</li>
+        <li>Experimenta con todas las configuraciones</li>
       </ul>
       <div class="instr-tip">
-        <div class="instr-tip-txt">🎮 La física del juego se basa en la tecnología real de vehículos eléctricos modernos.</div>
+        <div class="instr-tip-txt">Basado en física real de autos eléctricos modernos.</div>
       </div>
     </div>
   </div>
@@ -372,7 +366,7 @@
 
 <!-- SETUP -->
 <div id="setup" class="screen">
-  <div class="setup-title">⚙️ CONFIGURA TU VEHÍCULO</div>
+  <div class="setup-title">CONFIGURA TU VEHICULO</div>
   <div class="setup-grid">
     <div class="setup-section">
       <h3>🗺️ Escenario</h3>
@@ -443,7 +437,7 @@
   <div id="top-bar">
     <div class="top-item"><span class="top-lbl">VUELTA</span><span id="top-lap" style="font-size:15px;color:var(--ny)">1/3</span></div>
     <div class="top-item"><span class="top-lbl">POSICIÓN</span><span id="top-pos" style="font-size:21px;color:var(--ng)">P8</span></div>
-    <div class="top-item"><span class="top-lbl">ESCENARIO</span><span id="top-scene" style="font-size:12px">🏜️ Desierto</span></div>
+    <div class="top-item"><span class="top-lbl">ESCENARIO</span><span id="top-scene" style="font-size:12px">Desierto</span></div>
   </div>
   <div id="minimap"><canvas id="minimapCanvas" width="86" height="86"></canvas></div>
   <div id="hud">
@@ -452,10 +446,10 @@
       <div class="bat-top"><div class="bat-label">BATERÍA</div><div id="bat-pct">100%</div></div>
       <div class="bat-bar-bg"><div id="bat-bar" style="width:100%"></div></div>
       <div class="gen-row">
-        <div class="gen-chip"><span class="gen-txt" id="gen-solar" style="color:#ffe600">☀️ 0W</span></div>
-        <div class="gen-chip"><span class="gen-txt" id="gen-wind"  style="color:#00cfff">💨 0W</span></div>
-        <div class="gen-chip"><span class="gen-txt" id="gen-regen" style="color:#00ff88">⚡ 0W</span></div>
-        <div class="gen-chip"><span class="gen-txt" id="gen-cons"  style="color:#ff8c00">🔌 0W</span></div>
+        <div class="gen-chip"><span class="gen-txt" id="gen-solar" style="color:#ffe600">SOL: 0W</span></div>
+        <div class="gen-chip"><span class="gen-txt" id="gen-wind"  style="color:#00cfff">VIEN: 0W</span></div>
+        <div class="gen-chip"><span class="gen-txt" id="gen-regen" style="color:#00ff88">REG: 0W</span></div>
+        <div class="gen-chip"><span class="gen-txt" id="gen-cons"  style="color:#ff8c00">CON: 0W</span></div>
       </div>
     </div>
     <div class="hud-col">
@@ -467,26 +461,26 @@
   </div>
   <div id="alerts"></div>
   <div id="ctrl-hint">
-    <div class="ctrl-key">↑ Acelerar</div><div class="ctrl-key">↓ Frenar</div>
-    <div class="ctrl-key">← → Girar</div><div class="ctrl-key">ESC Pausa</div>
+    <div class="ctrl-key">Arriba: Acelerar</div><div class="ctrl-key">Abajo: Frenar</div>
+    <div class="ctrl-key">Izq/Der: Girar</div><div class="ctrl-key">ESC: Pausa</div>
   </div>
   <div id="mobile-ctrl">
-    <button class="m-btn" ontouchstart="keys.left=true" ontouchend="keys.left=false">◄</button>
-    <button class="m-btn" ontouchstart="keys.right=true" ontouchend="keys.right=false">►</button>
-    <button class="m-btn" ontouchstart="keys.up=true" ontouchend="keys.up=false">▲</button>
-    <button class="m-btn" ontouchstart="keys.down=true" ontouchend="keys.down=false">▼</button>
+    <button class="m-btn" ontouchstart="keys.left=true" ontouchend="keys.left=false">IZQ</button>
+    <button class="m-btn" ontouchstart="keys.right=true" ontouchend="keys.right=false">DER</button>
+    <button class="m-btn" ontouchstart="keys.up=true" ontouchend="keys.up=false">ACC</button>
+    <button class="m-btn" ontouchstart="keys.down=true" ontouchend="keys.down=false">FREN</button>
   </div>
 </div>
 
 <!-- RESULTS -->
 <div id="results" class="screen">
-  <div class="results-title" id="res-title">¡CARRERA TERMINADA!</div>
-  <div class="results-pos" id="res-pos">🏆 P1</div>
+  <div class="results-title" id="res-title">CARRERA TERMINADA</div>
+  <div class="results-pos" id="res-pos">POSICION 1</div>
   <div class="results-grid" id="res-grid"></div>
   <div class="res-tip" id="res-tip"></div>
   <div class="setup-btns">
-    <button class="btn-small back" onclick="showScreen('menu')">🏠 Menú</button>
-    <button class="btn-small go" onclick="showScreen('setup')">🔄 Otra carrera</button>
+    <button class="btn-small back" onclick="showScreen('menu')">MENU</button>
+    <button class="btn-small go" onclick="showScreen('setup')">OTRA CARRERA</button>
   </div>
 </div>
 
@@ -538,7 +532,7 @@ function startGame(){
 const SC = {
   desert:{
     solarMult:1.7,windMult:0.25,tempBase:46,regenBonus:0,drag:0.016,
-    name:'🏜️ Desierto',
+    name:'Desierto',
     sky:['#c84a10','#e87030','#ffc060'],
     groundNear:'#c08040',groundFar:'#e0b060',
     roadNear:'#504030',roadFar:'#706050',
@@ -550,7 +544,7 @@ const SC = {
   },
   coast:{
     solarMult:0.85,windMult:1.7,tempBase:27,regenBonus:0.12,drag:0.013,
-    name:'🌊 Costa',
+    name:'Costa',
     sky:['#004488','#0077bb','#44aadd'],
     groundNear:'#60a870',groundFar:'#80c890',
     roadNear:'#303828',roadFar:'#505844',
@@ -562,7 +556,7 @@ const SC = {
   },
   mountain:{
     solarMult:0.6,windMult:0.8,tempBase:17,regenBonus:0.2,drag:0.020,
-    name:'⛰️ Montaña',
+    name:'Montaña',
     sky:['#283848','#4a6878','#7a9aaa'],
     groundNear:'#4a5840',groundFar:'#6a7860',
     roadNear:'#282818',roadFar:'#383828',
@@ -574,7 +568,7 @@ const SC = {
   },
   city:{
     solarMult:0.28,windMult:0.2,tempBase:31,regenBonus:0.25,drag:0.011,
-    name:'🏙️ Ciudad',
+    name:'Ciudad',
     sky:['#222233','#334455','#556677'],
     groundNear:'#353540',groundFar:'#454550',
     roadNear:'#1a1a1a',roadFar:'#2a2a2a',
@@ -867,18 +861,18 @@ function initGame(){
     let ahead=rivals.filter(r=>r.pos>P.pos).length;
     P.position=ahead+1;
 
-    // Alerts (Más realismo educativo)
+    // Alerts (Sin emojis problemáticos, más simples)
     const bp = P.battery / maxBat;
-    if (bp < 0.08) maybeAlert('🔴 ¡BATERÍA COLAPSANDO! Motor apagándose', 'danger', 'crit', 4000);
-    else if (bp < 0.20) maybeAlert('⚠️ CRÍTICA: Frena y regenera energía YA', 'danger', 'low', 5000);
-    else if (bp < 0.35) maybeAlert('⚡ Batería baja (35%) — optimiza consumo', 'danger', 'mod', 6000);
+    if (bp < 0.08) maybeAlert('BATERIA CRITICA - Motor apagandose', 'danger', 'crit', 4000);
+    else if (bp < 0.20) maybeAlert('CRITICA: Frena y regenera YA', 'danger', 'low', 5000);
+    else if (bp < 0.35) maybeAlert('Bateria baja (35%) - optimiza consumo', 'danger', 'mod', 6000);
     
-    if (solarGen > 35 && cfg.solar) maybeAlert('☀️ Radiación solar óptima (+40W)', 'good', 'sun', 4000);
-    if (windF > 0.8 && cfg.turbine) maybeAlert('💨 Viento extremo — turbina +45W', 'good', 'wind', 4000);
-    if (temp > 48) maybeAlert('🌡️ Sobrecalentamiento — pérdida >25% eficiencia', 'danger', 'temp', 4000);
-    if (temp < 20 && cfg.solar) maybeAlert('❄️ Temperatura óptima para baterías', 'good', 'cold', 4000);
-    if (P.battery === 0 && keys.up) maybeAlert('⚫ Motor parado — sin carga en batería', 'danger', 'dead', 3000);
-    if (regenGen > 50 && cfg.regen) maybeAlert('⚡ Regeneración máxima — frenada eficiente', 'good', 'regen', 4000);
+    if (solarGen > 35 && cfg.solar) maybeAlert('Solar optima (+40W)', 'good', 'sun', 4000);
+    if (windF > 0.8 && cfg.turbine) maybeAlert('Viento extremo - turbina +45W', 'good', 'wind', 4000);
+    if (temp > 48) maybeAlert('Sobrecalentamiento - perdida >25% eficiencia', 'danger', 'temp', 4000);
+    if (temp < 20 && cfg.solar) maybeAlert('Temperatura optima para baterias', 'good', 'cold', 4000);
+    if (P.battery === 0 && keys.up) maybeAlert('Motor parado - sin carga en bateria', 'danger', 'dead', 3000);
+    if (regenGen > 50 && cfg.regen) maybeAlert('Regeneracion maxima - frenada eficiente', 'good', 'regen', 4000);
 
     // HUD (Información realista mejorada)
     drawSpeedo(document.getElementById('speedo-canvas'), spdKmh, maxSpeedKmh);
@@ -904,10 +898,10 @@ function initGame(){
     else bar.style.background = 'linear-gradient(90deg,#00ff88,#00cc6e)';
     
     // Mostrar generación de energía en tiempo real
-    document.getElementById('gen-solar').textContent = '☀️ ' + Math.round(solarGen) + 'W';
-    document.getElementById('gen-wind').textContent = '💨 ' + Math.round(windGen) + 'W';
-    document.getElementById('gen-regen').textContent = '⚡ ' + Math.round(regenGen) + 'W';
-    document.getElementById('gen-cons').textContent = '🔌 ' + Math.round(cons) + 'W';
+    document.getElementById('gen-solar').textContent = 'SOL: ' + Math.round(solarGen) + 'W';
+    document.getElementById('gen-wind').textContent = 'VIEN: ' + Math.round(windGen) + 'W';
+    document.getElementById('gen-regen').textContent = 'REG: ' + Math.round(regenGen) + 'W';
+    document.getElementById('gen-cons').textContent = 'CON: ' + Math.round(cons) + 'W';
     
     // Información adicional
     document.getElementById('hud-speed').textContent = Math.round(spdKmh);
@@ -1238,29 +1232,29 @@ function initGame(){
     const avgConsPerKm = P.energyUsed / (TRACK_LEN / 1000);
     const eff = Math.max(0, Math.round(100 - (P.energyUsed / (maxBat * 3)) * 85));
     const pos = P.position;
-    const posStr = pos === 1 ? '🏆 P1' : pos === 2 ? '🥈 P2' : pos === 3 ? '🥉 P3' : 'P' + pos;
+    const posStr = pos === 1 ? 'P1 - PRIMER LUGAR' : pos === 2 ? 'P2 - SEGUNDO LUGAR' : pos === 3 ? 'P3 - TERCER LUGAR' : 'P' + pos;
     
     // Consejos personalizados según el rendimiento
     let advice = sc.tips;
-    if (eff > 85) advice += '<br><br>🌟 <strong>Excelente:</strong> Tu eficiencia energética fue superior al 85%. Eres un verdadero ingeniero de energías renovables.';
-    else if (eff > 70) advice += '<br><br>✅ <strong>Bien:</strong> Tu configuración fue eficiente. Intenta optimizar el proyecto para la próxima carrera.';
-    else if (eff > 50) advice += '<br><br>⚠️ <strong>Mejorable:</strong> Considera diferentes componentes. La regeneración es clave en este escenario.';
-    else advice += '<br><br>📚 <strong>Aprendizaje:</strong> Los vehículos eléctricos requieren estrategia. Experimenta con todas las configuraciones.';
+    if (eff > 85) advice += '<br><br><strong>EXCELENTE:</strong> Tu eficiencia fue superior al 85%. Ingeniero de energias renovables confirmado.';
+    else if (eff > 70) advice += '<br><br><strong>BIEN:</strong> Tu configuracion fue eficiente. Optimiza para la proxima carrera.';
+    else if (eff > 50) advice += '<br><br><strong>MEJORABLE:</strong> Considera diferentes componentes. La regeneracion es clave.';
+    else advice += '<br><br><strong>APRENDIZAJE:</strong> Los auos electricos requieren estrategia. Experimenta con configuraciones.';
     
-    if (batPct < 10) advice += '<br>🔋 Casi sin batería al final. Más generación o menos consumo.';
-    if (batPct > 60 && pos < 4) advice += '<br>💡 Desperdiciaste potencia. Acelera más cuando tengas batería disponible.';
+    if (batPct < 10) advice += '<br>Casi sin bateria al final. Genera mas o consume menos.';
+    if (batPct > 60 && pos < 4) advice += '<br>Desperdiciaste potencia. Acelera mas cuando tengas bateria.';
     
-    document.getElementById('res-title').textContent = '🏁 ¡CARRERA TERMINADA!';
+    document.getElementById('res-title').textContent = 'CARRERA TERMINADA';
     document.getElementById('res-pos').textContent = posStr;
     document.getElementById('res-grid').innerHTML = `
-      <div class="res-card"><span class="res-icon">⚡</span><span class="res-label">Batería final</span><span class="res-val">${batPct}%</span></div>
-      <div class="res-card"><span class="res-icon">🌿</span><span class="res-label">Eficiencia</span><span class="res-val">${eff}%</span></div>
-      <div class="res-card"><span class="res-icon">⏱️</span><span class="res-label">Tiempo total</span><span class="res-val">${Math.round(P.time)}s</span></div>
-      <div class="res-card"><span class="res-icon">📊</span><span class="res-label">E. por vuelta</span><span class="res-val">${Math.round(energyUsedPerLap)}Wh</span></div>
-      <div class="res-card"><span class="res-icon">🚗</span><span class="res-label">Consumo/km</span><span class="res-val">${Math.round(avgConsPerKm)}W</span></div>
-      <div class="res-card"><span class="res-icon">🏁</span><span class="res-label">Posición</span><span class="res-val">${pos}/8</span></div>`;
+      <div class="res-card"><span class="res-label">Bateria Final</span><span class="res-val">${batPct}%</span></div>
+      <div class="res-card"><span class="res-label">Eficiencia</span><span class="res-val">${eff}%</span></div>
+      <div class="res-card"><span class="res-label">Tiempo Total</span><span class="res-val">${Math.round(P.time)}s</span></div>
+      <div class="res-card"><span class="res-label">E.por Vuelta</span><span class="res-val">${Math.round(energyUsedPerLap)}Wh</span></div>
+      <div class="res-card"><span class="res-label">Consumo/km</span><span class="res-val">${Math.round(avgConsPerKm)}W</span></div>
+      <div class="res-card"><span class="res-label">Posicion</span><span class="res-val">${pos}/8</span></div>`;
     
-    document.getElementById('res-tip').innerHTML = '💡 ' + advice;
+    document.getElementById('res-tip').innerHTML = advice;
     document.getElementById('hud').classList.remove('visible');
     document.getElementById('top-bar').classList.remove('visible');
     document.getElementById('minimap').classList.remove('visible');
